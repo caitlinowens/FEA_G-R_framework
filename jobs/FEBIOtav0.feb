@@ -26372,7 +26372,7 @@
 	</Boundary>
 	<Loads>
 		<surface_load name="PressureLoad1" type="pressure" surface="PressureLoad1">
-			<pressure lc="2">-0.126</pressure>
+			<pressure lc="1">-0.126</pressure>
 			<linear>0</linear>
 			<symmetric_stiffness>2</symmetric_stiffness>
 		</surface_load>
