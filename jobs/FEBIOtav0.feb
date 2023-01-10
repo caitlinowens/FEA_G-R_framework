@@ -20,9 +20,9 @@
 			<rhoi>0</rhoi>
 		</solver>
 		<time_stepper>
-			<dtmin>0.052941176470588235</dtmin>
+			<dtmin>0.0052941176470588235</dtmin>
 			<dtmax lc="1">1</dtmax>
-			<max_retries>5</max_retries>
+			<max_retries>50</max_retries>
 			<opt_iter>10</opt_iter>
 			<aggressiveness>1</aggressiveness>
 		</time_stepper>
@@ -26372,7 +26372,7 @@
 	</Boundary>
 	<Loads>
 		<surface_load name="PressureLoad1" type="pressure" surface="PressureLoad1">
-			<pressure lc="1">-0.126</pressure>
+			<pressure lc="2">-0.126</pressure>
 			<linear>0</linear>
 			<symmetric_stiffness>2</symmetric_stiffness>
 		</surface_load>
