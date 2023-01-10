@@ -12,8 +12,8 @@ feb, _,nStates, _= GetFEB(xpltname,nDoms,False)
 Nodes, nElems, nVar, StateTimes, VarNames, VarType = GetMeshInfo(feb)
 
 
-displacement = GetData(feb,'displacement',nStates,nVar)
-stress = GetData(feb,'stress',nStates,nVar)
+displacement = GetData(feb,'displacement',nStates)
+stress = GetData(feb,'stress',nStates)
 
 displacement = np.array(displacement)
 stress = np.array(stress)
